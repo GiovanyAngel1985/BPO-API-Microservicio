@@ -41,5 +41,5 @@ echo GROQ_API_KEY=tu_key > .env
 uvicorn main:app --reload --port 8000
 
 
-# Docs automaticas
+# Docs automáticas
  http://localhost:8000/docs

@@ -47,4 +47,7 @@ $RECYCLE.BIN/
 # Variables de entorno
 *.env
 
+# Cache de app
+__pycache__
+
 # End of https://www.toptal.com/developers/gitignore/api/venv,dotenv,windows

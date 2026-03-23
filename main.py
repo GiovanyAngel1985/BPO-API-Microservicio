@@ -66,7 +66,7 @@ def clasificar_priorizar(texto: str, compania: str) -> Tuple[str, str, str]:
     config = EMPRESAS_CONFIG.get(compania, {})
     
     prompt = ChatPromptTemplate.from_template(
-        """Eres un analista BPO experto. Clasifica esta solicitud:
+        """Eres un analista BPO. Solo puedes clasificar en las categorias que tendras adelante.
 
 CLIENTE: {compania}
 SOLICITUD: {texto}
